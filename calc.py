@@ -1,5 +1,6 @@
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
+    num0, num1 = int(num0), int(num1)
     values = expression.split(' ')
     num0 = int(values[0])
     operator = values[1]
